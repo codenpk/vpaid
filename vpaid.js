@@ -140,7 +140,7 @@ var myEvents = [{
         elem.classList.add("main-link");
         elem.setAttributeNode(href);
         elem.setAttributeNode(tg);
-        document.getElementById('slot').appendChild(elem)
+        document.getElementById('slot').appendChild(elem);
     }
 }, {
     event: 'myAddOffers',
